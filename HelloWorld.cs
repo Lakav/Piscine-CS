@@ -4,7 +4,8 @@ namespace CSharpDiscovery.Quest01
     {
         public static string HelloWorld()
         {
-            System.Console.WriteLine("Hello World !");
+            return "Hello World!";
         }
     }
 }
+
