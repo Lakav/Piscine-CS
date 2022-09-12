@@ -8,7 +8,7 @@ namespace CSharpDiscovery.Quest01
             {
                 return 0;
             }
-            return str.Length;
+            return str?.Length ?? 0; //return str.Length
 
         }
     }
