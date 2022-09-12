@@ -2,9 +2,9 @@ namespace CSharpDiscovery.Quest01
 {
     public class SetPiValue_Exercice
     {
-        public static double SetPiValue(double pi)
+        public static float SetPiValue(float pi)
         {
-            pi = 3.14159;
+            pi = (float) 3.14159;
             return pi;
         }
     }
