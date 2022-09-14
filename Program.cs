@@ -7,7 +7,7 @@ namespace TestCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(DisplayDateWithoutTime_Exercice.DisplayDateWithoutTime(new DateTime(2021, 1, 14)));
+            Console.WriteLine(TodayAtMidnight_Exercice.TodayAtMidnight());
         }
     }
 }
