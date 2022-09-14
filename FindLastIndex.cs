@@ -12,7 +12,7 @@ namespace CSharpDiscovery.Quest02
                 return Array.LastIndexOf(tab, a);
             }
 
-            if (tab == null)
+            if (tab == null || a == null)
             {
                 return null;
             }
