@@ -1,5 +1,6 @@
 ﻿using System;
 using CSharpDiscovery.Quest01;
+using CSharpDiscovery.Models;
 
 namespace TestCSharp
 {
@@ -7,8 +8,9 @@ namespace TestCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(AddTwoIntegers_Exercice.AddTwoIntegers(1, 2));
-            Console.WriteLine(AddTwoIntegers_Exercice.AddTwoIntegers(10, 5));
+            Console.WriteLine(NextTrafficLightColor_Exercice.GetNextTrafficLightColor(TrafficLightColor.Red));
+            Console.WriteLine(NextTrafficLightColor_Exercice.GetNextTrafficLightColor(TrafficLightColor.Orange));
+            Console.WriteLine(NextTrafficLightColor_Exercice.GetNextTrafficLightColor(TrafficLightColor.None));
         }
     }
 }
