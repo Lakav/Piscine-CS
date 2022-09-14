@@ -1,6 +1,5 @@
 ﻿using System;
-using CSharpDiscovery.Quest01;
-using CSharpDiscovery.Models;
+using CSharpDiscovery.Quest02;
 
 namespace TestCSharp
 {
@@ -8,9 +7,7 @@ namespace TestCSharp
     {
         static void Main(string[] args)
         {
-            Console.WriteLine(NextTrafficLightColor_Exercice.GetNextTrafficLightColor(TrafficLightColor.Red));
-            Console.WriteLine(NextTrafficLightColor_Exercice.GetNextTrafficLightColor(TrafficLightColor.Orange));
-            Console.WriteLine(NextTrafficLightColor_Exercice.GetNextTrafficLightColor(TrafficLightColor.None));
+            Console.WriteLine(DisplayDateWithoutTime_Exercice.DisplayDateWithoutTime(new DateTime(2021, 1, 14)));
         }
     }
 }
