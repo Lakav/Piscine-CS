@@ -4,7 +4,11 @@
     <projectFile>CSharpDiscovery.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6db6364-65af-4296-b1dd-9294413ae556" name="Changes" comment="" />
+    <list default="true" id="a6db6364-65af-4296-b1dd-9294413ae556" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/PointOfInterest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -61,7 +65,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663149173042</updated>
       <workItem from="1663149177141" duration="107000" />
-      <workItem from="1663149457423" duration="1508000" />
+      <workItem from="1663149457423" duration="3586000" />
     </task>
     <servers />
   </component>
