@@ -4,14 +4,7 @@
     <projectFile>CSharpDiscovery.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6db6364-65af-4296-b1dd-9294413ae556" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/encodings.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/indexLayout.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/projectSettingsUpdater.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/FindLastIndex.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-    </list>
+    <list default="true" id="a6db6364-65af-4296-b1dd-9294413ae556" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -35,6 +28,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
     "nodejs_package_manager_path": "npm",
+    "settings.editor.selected.configurable": "preferences.sourceCode.C#",
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
@@ -67,7 +61,7 @@
       <option name="presentableId" value="Default" />
       <updated>1663149173042</updated>
       <workItem from="1663149177141" duration="107000" />
-      <workItem from="1663149457423" duration="1195000" />
+      <workItem from="1663149457423" duration="1508000" />
     </task>
     <servers />
   </component>
