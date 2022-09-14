@@ -1,14 +1,16 @@
 ﻿using System;
 using CSharpDiscovery.Quest02;
-
 namespace TestCSharp
 {
     class Program
     {
-        static void Main(string[] args)
+        static void Main(string[] str)
         {
-            var array = new int[] { 3, 24, 13, 4, 40 };
-            Console.WriteLine(string.Join(", ", SortTable_Exercice.SortTable(array)));
+            var tab = new int[] { 1, 2, 3, 4, 6 };
+            var tab2 = new int[] { 1, 2, 3, 4, 6 };
+            var tab3 = new int[] { 1, 2, 3, 4, 5 };
+            Console.WriteLine(AreEquals_Exercice.AreEquals(tab, tab2));
+            Console.WriteLine(AreEquals_Exercice.AreEquals(tab2, tab3));
         }
     }
 }
