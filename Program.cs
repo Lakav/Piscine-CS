@@ -7,10 +7,7 @@ namespace TestCSharp
     {
         static void Main(string[] args)
         {
-            var start = new DateTime(2021, 02, 01, 12, 0, 0, 0);
-            var end = new DateTime(2021, 02, 01, 18, 0, 0, 0);
-            Console.WriteLine(DifferenceInMinutes_Exercice.DifferenceInMinutes(start, end));
-
+            Console.WriteLine(FromStringToDateTime_Exercice.FromStringToDateTime("21/12/2021 18:33"));
         }
     }
 }
