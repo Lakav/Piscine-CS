@@ -6,11 +6,10 @@ namespace TestCSharp
     {
         static void Main(string[] str)
         {
-            var tab = new int[] { 1, 2, 3, 4, 6 };
-            var tab2 = new int[] { 1, 2, 3, 4, 6 };
-            var tab3 = new int[] { 1, 2, 3, 4, 5 };
-            Console.WriteLine(AreEquals_Exercice.AreEquals(tab, tab2));
-            Console.WriteLine(AreEquals_Exercice.AreEquals(tab2, tab3));
+            var tab = new int[] { 20, 35, 12, 56, 35, 76 };
+            Console.WriteLine(FindLastIndex_Exercice.FindLastIndex(tab, 12));
+            Console.WriteLine(FindLastIndex_Exercice.FindLastIndex(tab, 35));
+            Console.WriteLine(FindLastIndex_Exercice.FindLastIndex(tab, 66));
         }
     }
 }
