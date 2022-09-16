@@ -8,7 +8,6 @@
       <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/PointOfInterest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PointOfInterest.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpellItBackwards.cs" beforeDir="false" afterPath="$PROJECT_DIR$/SpellItBackwards.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +66,7 @@
       <updated>1663149173042</updated>
       <workItem from="1663149177141" duration="107000" />
       <workItem from="1663149457423" duration="7371000" />
-      <workItem from="1663252888284" duration="8285000" />
+      <workItem from="1663252888284" duration="11305000" />
     </task>
     <servers />
   </component>

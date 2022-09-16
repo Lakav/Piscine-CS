@@ -30,13 +30,31 @@ namespace CSharpDiscovery.Quest03
         {
             string newOne = "";
             newOne = GoogleMapsUrlTemplate.Replace("{0}", Name);
+            
             string newTwo = newOne;
             newTwo = newOne.Replace("{1}", Latitude.ToString());
+            
             string newThree = newTwo;
             newThree = newThree.Replace("{2}", Longitude.ToString());
+            
             string newLast = newThree;
             newLast = newThree.Replace(" ", "+");
+            
             return newLast;
+        }
+
+        public string ToString()
+        {
+            string newOne = "Name-Of-Point (Lat=XXXXXXXXX, Long=YYYYYYYYYY)";
+            newOne = newOne.Replace("Name-Of-Point", Name);
+            
+            string newTwo = newOne;
+            newTwo = newOne.Replace("XXXXXXXXX", Latitude.ToString());
+            
+            string newThree = newTwo;
+            newThree = newThree.Replace("YYYYYYYYYY)", Longitude.ToString());
+            
+            return newThree;
         }
     }
 }
