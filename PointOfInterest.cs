@@ -23,6 +23,16 @@ namespace CSharpDiscovery.Quest03
             Latitude = _Latitude;
             Longitude = _Longitude;
         }
-        
+
+        public string GetGoogleMapsUrl()
+        {
+            string newOne = "";
+            newOne = GoogleMapsUrlTemplate.Replace("{0}", Name);
+            string newTwo = newOne;
+            newTwo = newOne.Replace("{1}", Latitude.ToString());
+            string newThree = newTwo;
+            newThree = newThree.Replace("{2}", Longitude.ToString());
+            return newThree;
+        }
     }
 }

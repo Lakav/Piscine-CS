@@ -1,3 +1,5 @@
+using System.Linq;
+
 namespace CSharpDiscovery.Quest01
 {
     public class SpellItBackwards_Exercice
@@ -14,6 +16,7 @@ namespace CSharpDiscovery.Quest01
             charArray[len] ^= charArray[i];
             charArray[i] ^= charArray[len];
         }
+        
 
         return new string(charArray);
         }
