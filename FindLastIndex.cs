@@ -16,9 +16,7 @@ namespace CSharpDiscovery.Quest02
                 return Array.LastIndexOf(tab, a);
             }
             
-            else return null;
-
-
+            return null;
         }
     }
 }
