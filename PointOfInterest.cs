@@ -52,9 +52,10 @@ namespace CSharpDiscovery.Quest03
             newTwo = newOne.Replace("XXXXXXXXX", Latitude.ToString());
             
             string newThree = newTwo;
-            newThree = newThree.Replace("YYYYYYYYYY)", Longitude.ToString());
+            newThree = newThree.Replace("YYYYYYYYYY", Longitude.ToString());
             
             return newThree;
         }
     }
 }
+
