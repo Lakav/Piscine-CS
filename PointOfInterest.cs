@@ -8,7 +8,9 @@ namespace CSharpDiscovery.Quest03
         public double Latitude { get; set; } = 0.0;
         public double Longitude { get; set; } = 0.0;
         public string Name { get; set; } = null;
-        public static string GoogleMapsUrlTemplate { get; set; } = "https://www.google.com/maps/place/{0}/@{1},{2},15z/";
+
+        public static string GoogleMapsUrlTemplate { get; set; } =
+            "https://www.google.com/maps/place/{0}/@{1},{2},15z/";
 
         public PointOfInterest()
         {
@@ -32,7 +34,9 @@ namespace CSharpDiscovery.Quest03
             newTwo = newOne.Replace("{1}", Latitude.ToString());
             string newThree = newTwo;
             newThree = newThree.Replace("{2}", Longitude.ToString());
-            return newThree;
+            string newLast = newThree;
+            newLast = newThree.Replace(" ", "+");
+            return newLast;
         }
     }
 }
