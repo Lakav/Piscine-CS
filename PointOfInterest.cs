@@ -43,7 +43,7 @@ namespace CSharpDiscovery.Quest03
             return newLast;
         }
 
-        public string ToString()
+        public override string ToString()
         {
             string newOne = "Name-Of-Point (Lat=XXXXXXXXX, Long=YYYYYYYYYY)";
             newOne = newOne.Replace("Name-Of-Point", Name);

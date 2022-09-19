@@ -7,9 +7,8 @@ namespace TestCSharp
     {
         static void Main(string[] str)
         {
-            var BordeauxCampus = new Campus();
-            BordeauxCampus.Capacity = 3000;
-            Console.WriteLine(BordeauxCampus.ToString());
+            PointOfInterest PorteCailhau = new HistoricalMonument("Porte Cailhau", 44.838336, -0.569446, 1493);
+            Console.WriteLine(PorteCailhau.ToString());
         }
     }
 }
