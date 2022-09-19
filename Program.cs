@@ -1,5 +1,4 @@
-﻿using System;
-using CSharpDiscovery.Quest03;
+﻿using CSharpDiscovery.Quest04;
 
 namespace TestCSharp
 {
@@ -7,8 +6,9 @@ namespace TestCSharp
     {
         static void Main(string[] str)
         {
-            PointOfInterest PorteCailhau = new HistoricalMonument("Porte Cailhau", 44.838336, -0.569446, 1493);
-            Console.WriteLine(PorteCailhau.ToString());
+            var RandomCar = new Car();
+            var Megane = new Car("Mégane", "Renault", "Yellow", 50);
+            Vehicule.WhoIsHere();
         }
     }
 }
