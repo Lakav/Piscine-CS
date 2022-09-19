@@ -9,7 +9,7 @@ namespace CSharpDiscovery.Quest04
             Model = "Unknown";
         }
         
-        public Car(string _Brand, string _Model, string _Color, int _CurrentSpeed = 0)
+        public Car(string _Model, string _Brand, string _Color, int _CurrentSpeed = 0)
             : base(_Brand,_Color,_CurrentSpeed)
         {
             Model = _Model;
