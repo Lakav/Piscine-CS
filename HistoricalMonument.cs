@@ -1,6 +1,6 @@
 namespace CSharpDiscovery.Quest03
 {
-    class HistoricalMonument: PointOfInterest
+    public class HistoricalMonument: PointOfInterest
     {
         public int BuildYear { get; set; } = 0;
 
