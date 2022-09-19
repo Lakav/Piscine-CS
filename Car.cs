@@ -6,7 +6,7 @@ namespace CSharpDiscovery.Quest04
 
         public Car() : base()
         {
-            Brand = "Unknown";
+            Model = "Unknown";
         }
         
         public Car(string _Brand, string _Model, string _Color, int _CurrentSpeed = 0)
