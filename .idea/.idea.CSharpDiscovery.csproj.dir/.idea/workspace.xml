@@ -4,7 +4,13 @@
     <projectFile>CSharpDiscovery.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6db6364-65af-4296-b1dd-9294413ae556" name="Changes" comment="" />
+    <list default="true" id="a6db6364-65af-4296-b1dd-9294413ae556" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Car.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Car.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PointOfInterest.cs" beforeDir="false" afterPath="$PROJECT_DIR$/PointOfInterest.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Vehicule.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Vehicule.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -63,7 +69,8 @@
       <workItem from="1663149177141" duration="107000" />
       <workItem from="1663149457423" duration="7371000" />
       <workItem from="1663252888284" duration="16326000" />
-      <workItem from="1663518088620" duration="10063000" />
+      <workItem from="1663518088620" duration="17170000" />
+      <workItem from="1663681263813" duration="7256000" />
     </task>
     <servers />
   </component>

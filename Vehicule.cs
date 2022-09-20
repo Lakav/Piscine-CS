@@ -52,5 +52,7 @@ namespace CSharpDiscovery.Quest04
             }
             Console.WriteLine("---------------------------------");
         }
+        public abstract void Accelerate(int Speed);
+        public abstract void Brake(int BrakePower);
     }
 }

@@ -1,3 +1,6 @@
+using System;
+using System.Runtime.InteropServices;
+
 namespace CSharpDiscovery.Quest04
 {
     public class Car:Vehicule
@@ -28,6 +31,29 @@ namespace CSharpDiscovery.Quest04
 
             return strM;
         }
-        
+
+        public override void Accelerate(int speed)
+        {
+            if (CurrentSpeed + speed >= 180)
+            {
+                CurrentSpeed = 180;
+            }
+            else
+            {
+                CurrentSpeed += speed;
+            }
+        }
+
+        public override void Brake(int BrakePower)
+        {
+            if (BrakePower > CurrentSpeed)
+            {
+                CurrentSpeed = 0;
+            }
+            else
+            {
+                CurrentSpeed -= BrakePower;
+            }
+        }
     }
 }
