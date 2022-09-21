@@ -2,7 +2,7 @@ namespace CSharpDiscovery.Quest04
 {
     public class Truck : Vehicule
     {
-        public float Tonnage { get; set; }
+        public int Tonnage { get; set; }
 
         public Truck() : base()
         {
