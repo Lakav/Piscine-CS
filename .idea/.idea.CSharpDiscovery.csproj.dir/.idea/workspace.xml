@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a6db6364-65af-4296-b1dd-9294413ae556" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/CarInterfaces.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/HybridCar.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CSharpDiscovery.csproj.dir/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Program.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Program.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +69,7 @@
       <workItem from="1663252888284" duration="16326000" />
       <workItem from="1663518088620" duration="17170000" />
       <workItem from="1663681263813" duration="8865000" />
-      <workItem from="1663742469088" duration="1251000" />
+      <workItem from="1663742469088" duration="2846000" />
     </task>
     <servers />
   </component>
