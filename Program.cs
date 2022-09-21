@@ -1,6 +1,4 @@
-﻿using System;
-using CSharpDiscovery.Quest04;
-
+﻿using CSharpDiscovery.Quest04;
 
 namespace TestCSharp
 {
@@ -8,23 +6,17 @@ namespace TestCSharp
     {
         static void Main(string[] str)
         {
-            var Megane = new Car("Mégane", "Renault", "Yellow", 100);
+            var RandomTruck = new Truck();
+            var MAC = new Truck(2, "MAC", "White", 80);
+            var Renault = new Truck(3, "Renault", "Black", 20);
 
-            Megane.Accelerate(50);
+            Vehicule.WhoIsHere();
 
-            Console.WriteLine(Megane.CurrentSpeed);
+            RandomTruck.Accelerate(30);
+            MAC.Accelerate(40);
+            Renault.Brake(30);
 
-            Megane.Accelerate(50);
-
-            Console.WriteLine(Megane.CurrentSpeed);
-
-            Megane.Brake(160);
-
-            Console.WriteLine(Megane.CurrentSpeed);
-
-            Megane.Brake(40);
-
-            Console.WriteLine(Megane.CurrentSpeed);
+            Vehicule.WhoIsHere();
         }
     }
 }

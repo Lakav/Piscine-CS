@@ -1,6 +1,3 @@
-using System;
-using System.Runtime.InteropServices;
-
 namespace CSharpDiscovery.Quest04
 {
     public class Car:Vehicule
