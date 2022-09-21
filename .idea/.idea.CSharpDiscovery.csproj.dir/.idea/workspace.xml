@@ -4,7 +4,9 @@
     <projectFile>CSharpDiscovery.csproj</projectFile>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a6db6364-65af-4296-b1dd-9294413ae556" name="Changes" comment="" />
+    <list default="true" id="a6db6364-65af-4296-b1dd-9294413ae556" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/CarInterfaces.cs" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -65,7 +67,7 @@
       <workItem from="1663252888284" duration="16326000" />
       <workItem from="1663518088620" duration="17170000" />
       <workItem from="1663681263813" duration="8865000" />
-      <workItem from="1663742469088" duration="938000" />
+      <workItem from="1663742469088" duration="1251000" />
     </task>
     <servers />
   </component>
